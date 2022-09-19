@@ -11,7 +11,7 @@ const Comment = ({ name, email, body, id }) => {
         </h4>
         <p>{body}</p>
         <div>
-          <span class="comment_by">By {email}</span>
+          <span className="comment_by">By {email}</span>
         </div>
       </div>
     </div>
